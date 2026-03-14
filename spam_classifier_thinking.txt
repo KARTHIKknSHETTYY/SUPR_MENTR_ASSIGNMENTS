@@ -1,0 +1,45 @@
+Description: Design a spam detection system by identifying useful features, required data, and possible mistakes.
+
+
+1. Features for Spam Detection
+
+Features are the characteristics the model uses to decide whether a message is spam or not.
+
+Keywords in message: Words like “free”, “win”, “offer”, “lottery”, “urgent”.
+
+Number of links: Spam messages often contain many links.
+
+Sender information: Unknown or suspicious email addresses.
+
+Message length: Spam messages may be unusually short or very long.
+
+Special characters or symbols: Excessive use of symbols like “!!!”, “$$$”, or capital letters.
+
+
+2. Data Needed
+
+To train the spam detection system, we need a labeled dataset.
+
+Spam messages: Emails or SMS that are already identified as spam.
+
+Normal messages: Genuine messages that are not spam.
+
+Message text: Content of the email or SMS.
+
+Sender details: Information about who sent the message.
+
+Labels: Each message marked as “spam” or “not spam”.
+
+
+
+3. Possible Mistakes in the System
+
+False Positive: A normal message is incorrectly classified as spam.
+Example: A genuine promotional email from a store marked as spam.
+
+False Negative: A spam message is incorrectly classified as normal.
+Example: A scam email reaching the inbox.
+
+Changing spam patterns: Spammers constantly change words and formats to bypass filters.
+
+Data bias: If the training data is limited or unbalanced, the model may not detect all types of spam.

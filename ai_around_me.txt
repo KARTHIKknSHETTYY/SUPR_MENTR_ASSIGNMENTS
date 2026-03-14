@@ -1,0 +1,31 @@
+Description: Real-life AI applications used daily and how Machine Learning works behind them.
+
+1. Google Maps
+I use Google Maps to find directions and avoid traffic. ML analyzes traffic data from millions of users to predict congestion and suggest the fastest route.
+
+2. YouTube Recommendations
+YouTube suggests videos based on what I watch. ML models learn from my watch history, likes, and viewing time to recommend videos I might enjoy.
+
+3. Google Search
+When I search for something, Google shows the most relevant results. ML helps understand the meaning of my query and ranks web pages that best match it.
+
+4. Email Spam Filter (Gmail)
+Gmail automatically moves spam emails to the spam folder. ML models are trained to detect patterns commonly found in spam messages.
+
+5. Voice Assistants (Google Assistant / Siri)
+Voice assistants understand spoken commands. ML converts speech into text and interprets the user's request to perform actions like setting alarms or searching information.
+
+6. Netflix Recommendations
+Netflix recommends movies and shows based on my viewing habits. ML analyzes what I watch, rate, or skip to suggest similar content.
+
+7. Face Unlock on Smartphones
+Many phones unlock using face recognition. ML models analyze facial features and compare them with stored data to verify the user.
+
+8. Instagram / Facebook Feed
+The posts I see are arranged based on my interests. ML predicts which posts I am most likely to interact with and shows them first.
+
+9. Online Shopping Recommendations (Amazon / Flipkart)
+Shopping apps recommend products based on my browsing and purchase history. ML identifies patterns in user behavior to suggest relevant items.
+
+10. Autocorrect and Predictive Text (Keyboard)
+My phone suggests the next word while typing. ML models learn from language patterns and previous typing behavior to predict the next word.

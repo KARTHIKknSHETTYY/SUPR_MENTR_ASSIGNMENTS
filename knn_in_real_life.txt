@@ -1,0 +1,37 @@
+Description: Explain how Netflix-like recommendations work using K-Nearest Neighbors (KNN) and show a small similarity example.
+
+Explanation
+
+Netflix recommends movies by finding users who have similar watching patterns.
+Using the K-Nearest Neighbors (KNN) approach, the system compares a user’s preferences with other users. If two users like similar movies, the system recommends movies liked by one user to the other.
+
+For example, if User A and User B both like action and thriller movies, and User B watched a new movie that User A hasn’t seen yet, the system may recommend that movie to User A.
+
+from sklearn.neighbors import NearestNeighbors
+import numpy as np
+
+# example movie rating dataset (users vs movies)
+data = np.array([
+    [5, 4, 0, 1],  # User 1
+    [4, 5, 1, 0],  # User 2
+    [0, 1, 5, 4],  # User 3
+])
+
+# create KNN model
+model = NearestNeighbors(n_neighbors=2, metric='cosine')
+model.fit(data)
+
+# find similar users to User 1
+distances, indices = model.kneighbors([data[0]])
+
+print("Similar users to User 1:", indices)
+
+
+
+In this code: 
+
+Each row represents a user’s ratings for movies.
+
+KNN finds the most similar users based on their rating patterns.
+
+The system can recommend movies liked by similar users but not yet watched by the current user.
